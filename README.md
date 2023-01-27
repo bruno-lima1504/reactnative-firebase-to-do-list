@@ -1,7 +1,7 @@
 # To do list - React Native with Firebase
 
 # Technologies used:
-* React Native: Hooks(useState, useEffect, useRef), Components, StyledComponents.
+* React Native: Hooks(useState, useEffect, useRef), Components, StyleSheets.
 * Firebase: Users Authentication with email and password, NoSQL Database. 
 
 ## Resume

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, Text, SafeAreaView, StatusBar, TextInput, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, SafeAreaView, StatusBar, TextInput, TouchableOpacity } from 'react-native';
 
 import firebase from '../../services/firebaseConnection'
 
@@ -48,6 +48,7 @@ export default function Login({ changeStatus }){
                 placeholder='Sua senha'
                 style={styles.input}
                 value={password}
+                secureTextEntry={true}
                 onChangeText={ (text) => setPassword(text)}
            />
 
